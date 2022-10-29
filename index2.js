@@ -1,0 +1,30 @@
+// // let rating =4;
+// // if (rating === 5) {
+// //     console.log ("Excellent");
+
+// // } else if (rating == 4){
+// //     console.log ("Rating 4");
+// // } else {
+// //     console.log ("Not Given") ;
+// // }
+
+
+// let email =false ;
+// let Mobile= true;
+
+// if (email == true || Mobile== true) {
+//     console.log ("Redirect to homepage");
+// }
+// else if (Mobile == true && email == false ) {
+//     console.log ("Redirect to Email Verification")
+// }
+
+// else {
+//     console.log ("Create to your account");
+// }
+
+
+// condition ? expression : expression
+
+var loggedin =false ;
+loggedin ?console.log("HOME PAGE"): console.log("Login First")
