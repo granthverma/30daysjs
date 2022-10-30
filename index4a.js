@@ -113,10 +113,43 @@ let names =["honey " , "granth" , "hitesh sir" ,"sairaj" ,"nannu"];
 
 ////    SPLIT METHOD ------------------->
 
-let str ="javascript";
-let arr1 =str.split ("");
-console.log (arr1) ;
+// let str ="javascript";
+// let arr1 =str.split ("");
+// console.log (arr1) ;
+
+
+//split the value into arrays
+/////------------------------------------->....>>>>
+
+
+
+
+/////----------------math method >....>>>>
+
+// const PI=Math.PI;
+// console.log(PI);
+
+// console.log(Math.round(PI));
+// console.log(Math.floor(PI)); //learest value lower than value
+// console.log(Math.ceil(PI)); //smallest value greater value
+// 3 <--  floor (value =3.14) ---> 4 ceil
+
+//>>>>>>>>>>>....... min value  , max values
+
+
+// console.log (Math.min(56 , 45, 23, 78, 98, 87, 45,));
+// console.log (Math.max(56 , 45, 23, 78, 98, 87, 45,));
+
+
+
+let num =Math.random() ;
+let num1 =(Math.random() *11);
+console.log (num1);
+/// always between 0-1
 
 
 
 /////------------------------------------->....>>>>
+
+
+
