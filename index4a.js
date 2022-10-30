@@ -58,6 +58,18 @@
 //fromIndex — The position in this array at which to begin searching for searchElement.
 
 
- let arr1 = [1 ,2, 3,4, 5,6, 6,7 ,8] ;
-console.log (arr1.includes(5 ,4));
+//  let arr1 = [1 ,2, 3,4, 5,6, 6,7 ,8] ;
+// console.log (arr1.includes(5 ,4));
+// ----------------------------------------------------------------------------//
 
+
+// ********* --------->>>> index of 
+// let arr1 = [1 ,2, 3,4, 5,6, 7,8, 9] ;
+// console.log (arr1.indexOf(4));
+
+// what the position values are present 
+
+
+
+let arr2 = [1 ,2, 3,4, 5,6,7 ,"LCO" ,8] ;
+console.log (arr2.lastIndexOf("LCO"));
