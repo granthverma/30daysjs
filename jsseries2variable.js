@@ -9,6 +9,9 @@ var loggedCount =34 ; // number
 // console.log ("loggedCount") ; // give a string value 
 
 var paymentMode;
-console.log(paymentMode);
+// console.log(paymentMode); // give undefined
 paymentMode ="Credit Card";
-console.log(paymentMode);
+console.log(paymentMode); // give-> credit card 
+
+
+ 
