@@ -142,14 +142,27 @@ let names =["honey " , "granth" , "hitesh sir" ,"sairaj" ,"nannu"];
 
 
 
-let num =Math.random() ;
-let num1 =(Math.random() *11);
-console.log (num1);
+// let num =Math.random() ;
+// let num1 =(Math.random() *11);
+// console.log (num1);
 /// always between 0-1
+//_________------>  neg to positive
 
+// console.log(Math.abs(-10)) ;
 
+//// now to square root 
 
+// console.log(Math.sqrt(144));
+
+/// _____------->>>> square
+
+// console.log(Math.pow(3,4));
+/// _____------->>>> 
+
+/// cos value
+console.log (Math.cos(60));
 /////------------------------------------->....>>>>
+
 
 
 
