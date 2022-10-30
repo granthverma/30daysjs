@@ -43,9 +43,21 @@
 // how add WE COPY VALUE INSIDE THE ARRAY -->
 // local syntax where index you  replaced ,from where to where ,exp 4 to 6 its means 4 ,5 index 
 
-let arr1 =[1,2,3,4,5,6,7,8,9] ;
-console.log (arr1.copyWithin(1 ,4,6));
-//syn : array.copyWithin (target_index , start , end )
+// let arr1 =[1,2,3,4,5,6,7,8,9] ;
+
+// console.log (arr1.copyWithin(1 ,4,6));
+// //syn : array.copyWithin (target_index , start , end )
+
+// let arr1 = [1,2,3,4,5,6,7,8] ;
+// console.log ()
+
+// ------->>>>>>>>>    includes 
+
+/// just learn about includes  -->  includes check the value you given index or notsearchElement — The element to search for.
+
+//fromIndex — The position in this array at which to begin searching for searchElement.
 
 
+ let arr1 = [1 ,2, 3,4, 5,6, 6,7 ,8] ;
+console.log (arr1.includes(5 ,4));
 
