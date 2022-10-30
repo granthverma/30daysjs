@@ -71,5 +71,30 @@
 
 
 
-let arr2 = [1 ,2, 3,4, 5,6,7 ,"LCO" ,8] ;
-console.log (arr2.lastIndexOf("LCO"));
+// let arr2 = [1 ,2, 3,4, 5,6,7 ,"LCO" ,8] ;
+// console.log (arr2.lastIndexOf("LCO"));
+
+
+// MAP 
+
+// let asqr = [9 ,18 ,27,24 ,84];
+//  //array .map (expr)
+//  console.log (asqr.map(Math.sqrt));
+
+//  console.log (asqr.reverse());
+//  shift ------> shift the first value
+// let asqr = [9 ,18 ,27,24 ,84] ;
+// console.log (asqr.shift());
+// console.log(asqr);
+// console.log(asqr.shift());
+// console.log (asqr);
+
+
+
+
+/// just litilt bit sort
+let names =["honey " , "granth" , "hitesh sir" ,"sairaj" ,"nannu"];
+console.log (names.sort() );
+// it overrite original arrays
+
+console.log(names.toString());
