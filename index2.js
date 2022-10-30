@@ -28,3 +28,11 @@
 
 var loggedin =false ;
 loggedin ?console.log("HOME PAGE"): console.log("Login First")
+if(!loggedin){
+    console.log ("login first");
+}
+else {
+    console.log ("Home page");
+}
+
+// Granth ? TRUE :FALSE
