@@ -93,7 +93,7 @@
 
 
 /// just litilt bit sort
-let names =["honey " , "granth" , "hitesh sir" ,"sairaj" ,"nannu"];
+// let names =["honey " , "granth" , "hitesh sir" ,"sairaj" ,"nannu"];
 // console.log (names.sort() );
 // // it overrite original arrays
 
@@ -160,8 +160,8 @@ let names =["honey " , "granth" , "hitesh sir" ,"sairaj" ,"nannu"];
 /// _____------->>>> 
 
 /// cos value
-console.log (Math.cos(60));
-/////------------------------------------->....>>>>
+// console.log (Math.cos(60));
+// /////------------------------------------->....>>>>
 
 
 
