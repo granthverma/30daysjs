@@ -94,7 +94,29 @@
 
 /// just litilt bit sort
 let names =["honey " , "granth" , "hitesh sir" ,"sairaj" ,"nannu"];
-console.log (names.sort() );
-// it overrite original arrays
+// console.log (names.sort() );
+// // it overrite original arrays
 
-console.log(names.toString());
+// console.log(names.toString());
+
+// to string arrays normal way 
+
+//---------->
+// unshift arrary 
+
+// console.log (names.unshift("Value 1"));
+// console.log(names) ;
+// shift the value add also
+
+///--------------------------------->
+
+
+////    SPLIT METHOD ------------------->
+
+let str ="javascript";
+let arr1 =str.split ("");
+console.log (arr1) ;
+
+
+
+/////------------------------------------->....>>>>
