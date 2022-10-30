@@ -29,11 +29,13 @@
 // //how many value you modified -> start index (2) ,modified things
 // console.log(nam);
 // how to add  two array-->
-// concatenation in array ---->
+//  "" in array ---->
 // The concat() method concatenates (joins) two or more arrays. The concat() method returns a new array, containing the joined arrays.
 //  The concat() method does not change the existing arrays.
 
 let nam = ["Ab" , "bb","Cc","Dd" ,"Ee" ,"Dd" ,"Ee"] ;
 let nam1 =[1,2, 3,4 ,5 ,6 ,7 ,8 ,9] ;
-
-console.log (nam.concat(nam1)) ;
+//if we have  thrid array then what we do --> we simple add second variable name in log
+let nam2 =[9 ,7,6,5,3,1,6,1]
+console.log (nam.concat(nam1 ,nam2)) ;
+// add two value 
