@@ -54,4 +54,5 @@ console.log ("The Discounted Price is" +DPrice);
 let roundprice =Math.round(DPrice);
 console.log ("The Discounted percentage is " +roundprice);
 
-
+// rating app
+//var let const
