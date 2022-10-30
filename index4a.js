@@ -33,9 +33,19 @@
 // The concat() method concatenates (joins) two or more arrays. The concat() method returns a new array, containing the joined arrays.
 //  The concat() method does not change the existing arrays.
 
-let nam = ["Ab" , "bb","Cc","Dd" ,"Ee" ,"Dd" ,"Ee"] ;
-let nam1 =[1,2, 3,4 ,5 ,6 ,7 ,8 ,9] ;
-//if we have  thrid array then what we do --> we simple add second variable name in log
-let nam2 =[9 ,7,6,5,3,1,6,1]
-console.log (nam.concat(nam1 ,nam2)) ;
-// add two value 
+// let nam = ["Ab" , "bb","Cc","Dd" ,"Ee" ,"Dd" ,"Ee"] ;
+// let nam1 =[1,2, 3,4 ,5 ,6 ,7 ,8 ,9] ;
+// //if we have  thrid array then what we do --> we simple add second variable name in log
+// let nam2 =[9 ,7,6,5,3,1,6,1]
+// console.log (nam.concat(nam1 ,nam2)) ;
+// // add two value ^^^^^^
+
+// how add WE COPY VALUE INSIDE THE ARRAY -->
+// local syntax where index you  replaced ,from where to where ,exp 4 to 6 its means 4 ,5 index 
+
+let arr1 =[1,2,3,4,5,6,7,8,9] ;
+console.log (arr1.copyWithin(1 ,4,6));
+//syn : array.copyWithin (target_index , start , end )
+
+
+
