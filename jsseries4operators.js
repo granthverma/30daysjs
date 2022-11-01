@@ -25,4 +25,15 @@ displayDiscountPercentage =Math.round (discountPercent);
 
 console.log(displayDiscountPercentage +"% off");
 
+var result =listingPrice >sellingPrice
+
+console.log(typeof result);
+
+
+
+// ----------->
+// ------------- type and operator precedence in js 
+//--- type of operator  - which type operator 
+
+
 
