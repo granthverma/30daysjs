@@ -35,4 +35,4 @@ else {
     console.log ("Home page");
 }
 
-// Granth ? TRUE :FALSE
+// Granth ? TRUE :FALSE ;
