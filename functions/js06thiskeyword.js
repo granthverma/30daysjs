@@ -1,5 +1,8 @@
 // part 1 
 
-console.log (this);
+// console.log (this);
 
-// gi
+// this give you  --->   {}
+// window object 
+
+
