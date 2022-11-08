@@ -21,11 +21,11 @@ var states = new Array ("Rajasthan" ,"delhi","Mumbai", "Assam"); // new way
 
 
 var user = ["honey " ,"granthcodes@com",3 ,34 ,true];
-console.log(user);
+// console.log(user);
 // remove the value we pop 
 // pop remove the value from end
 user.pop() ;
-console.log(user);
+// console.log(user);
 
 
 /// Unshift the value  -- unshift shift value from end
@@ -33,8 +33,13 @@ console.log(user);
 //
 
 user.unshift ("NEW VALUE") ;
-console.log (user);
-user.shift();
-console.log(user);
+// console.log (user);
 
-//
+// shift the value to original one
+user.shift();
+ console.log(user);
+
+console.log(user.indexOf("honey"));
+
+
+console.log(Array.from("honey"));
