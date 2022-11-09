@@ -12,5 +12,19 @@ var isEven = (element) => {
 
 // console.log(isEven(2));
 
-var result = [2, 4, 6,8].every(isEven);
+// var result = [2, 4, 6,8].every(isEven);
+// console.log(result);
+
+
+// every check all values
+
+// call back function ------------>
+//  call back syntax  ------------------->
+
+// () => {}    when we use {} then return value 
+// () => ()    ---   without return the value
+
+
+
+var result = [2, 4, 6,8].every((e)=> (e % 2 ===0 ) ) ;
 console.log(result);
