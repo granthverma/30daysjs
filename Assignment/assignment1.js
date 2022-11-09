@@ -1,15 +1,17 @@
 // assignment user signup with every details
-const uid ="ashyd12345";
-firstName = "Granth";
-lastName ="Verma";
-cityName ="ajmer";
-stateName= "rajasthan";
-phoneNum = 7014257890;
-email = "granthverma.com"
-var password = "123456";
-var confirmPassword ="123456";
-level ="beginner"
-skill ="html css js wordpress";
+const uid ="abcd1234" ;
+firstName= "granth";
+lastName= "Verma" ;
+cityName ="jaipur" ;
+stateName= "rajasthan" ;
+phoneNum=7014247939 ;
+email = "granthcodes.com" ;
+var password= "123456";
+var conformPassword= "123456" ;
+level ="beginner" ;
+skill = "Html Css  JS java  Wordpress" ;
+
+
 
 
 
