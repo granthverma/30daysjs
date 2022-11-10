@@ -2,7 +2,7 @@ var testArray =[2 ,3 ,4 ,6, 7,8, 9,10] ;
 
 // console.log(testArray.fill("zero"));
 
-console.log(testArray.fill("zero" ,2 ,5));
+// console.log(testArray.fill("zero" ,2 ,5));
 
 /// (value , start , end)
 
@@ -10,4 +10,14 @@ console.log(testArray.fill("zero" ,2 ,5));
 
  const result = myNumber.filter((num) => num <55 );
 
- console.log(result);
+//  console.log(result);
+
+
+ // use for filter the value 
+
+ var user = ["avi" ,"tom" ,"ton" ,"john" ,"sun" ,"moon"];
+ console.log(user.slice(1 ,4));
+ 
+// slice kha se kha tk 
+// starting point include 
+// ending point exclude 
