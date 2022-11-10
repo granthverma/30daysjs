@@ -17,7 +17,14 @@ var testArray =[2 ,3 ,4 ,6, 7,8, 9,10] ;
 
  var user = ["avi" ,"tom" ,"ton" ,"john" ,"sun" ,"moon"];
  console.log(user.slice(1 ,4));
- 
-// slice kha se kha tk 
+
+// slice kha se kha tk se phale tk
 // starting point include 
 // ending point exclude 
+
+user.splice(1 ,3 ,"Hi", "Bye");
+console.log(user);
+
+// splice 
+// starting value , count value 
+// you insight as many value you want
