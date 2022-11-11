@@ -17,7 +17,7 @@ console.log(user.loginCount);
 user.loginCount = 77 ;
 console.log(user.loginCount);
 
-/// way to access all value in different way 
+///  To access all value in different ways 
 
 console.table(user);
 
