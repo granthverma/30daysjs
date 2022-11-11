@@ -13,3 +13,7 @@ var user = {
 console.log(user.firstName);   // new way
 console.log(user["lastName"]) ; // old way with array
 
+console.log(user.loginCount);
+user.loginCount = 77 ;
+console.log(user.loginCount);
+
