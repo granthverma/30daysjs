@@ -10,4 +10,4 @@
  }
  else {
     console.log ("Its normal ");
- }
+ } ;
