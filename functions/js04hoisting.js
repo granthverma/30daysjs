@@ -58,5 +58,8 @@ bigTipper("200") ;
         
     }
 
-    sayName();  
-    console.log(name);
+    sayName() ;
+console.log(name);
+
+
+   
