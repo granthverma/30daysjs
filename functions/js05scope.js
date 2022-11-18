@@ -12,8 +12,8 @@ function sayName() {
      var name = "himanshu verma";
     console.log ("Line number 13" ,name);
     // son
-     var name = "granth verma" ;
-    console.log ("Line number 16" ,name) ;
+    var name = "Granth.codes" ;
+    console.log("Line number 16" ,name);
     
 }
 
