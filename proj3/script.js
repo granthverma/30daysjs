@@ -57,4 +57,23 @@ const button = document.querySelector(".sort-btn");
 button.addEventListener("click", () => {
   courses.sort((a, b) => a.price - b.price);
   generateLIST();
+
+
 });
+
+  window.addEventListener("load", generateLIST);
+
+const button1 = document.querySelector(".sort-btn1");
+
+button.addEventListener("click", () => {
+  courses.sort((a, b) => b.price -a.price );
+  generateLIST();
+
+
+
+
+
+
+});
+ 
+
