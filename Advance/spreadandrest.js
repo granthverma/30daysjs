@@ -31,4 +31,5 @@ function sumTwo( a, b, ...args) {
     return [sum , multi];
 }
 
+
 console.log(sumTwo (2 , 3, 1,1, 1));
