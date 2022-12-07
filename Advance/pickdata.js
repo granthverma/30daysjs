@@ -1,12 +1,12 @@
-const user = ["granth" , 4,"admin"];
+// const user = ["granth" , 4,"admin"];
 
-var role = user [2];
-var name = user [0];
+// var role = user [2];
+// var name = user [0];
 
 
-var [name , courseCount, role ]= user ;
+// var [name , courseCount, role ]= user ;
 
-console.log(role);
+// console.log(role);
 
 const MyUser ={
     name : "granth",
@@ -19,3 +19,7 @@ console.log(MyUser.courseCount);
 
 const {name , courseCount, role } = MyUser;
 console.log(role);
+
+
+/// name some 
+//destucture happend with array objects n more 
