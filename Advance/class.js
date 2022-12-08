@@ -1,60 +1,79 @@
-class User {
- constructor (name , email) {
-    this.name = name ;
-    this.email = email;
-}
+class User{
+  constructor (name , email){
+     this.name = name;
+     this.email= email;
+  }
+  #courseList =[];
+  // private props getters and setters in javascripts
 
-#courseList = [];
+  getInfo(){
+     return{name: this.name ,email: this.email };
 
+     // funcation  bhi bola skta ha aur method bhi 
 
-getInfo () {
-    return {name :this.name ,email :this.email};
-
-}
-
-enrollCourse(name) {
-
-    this.#courseList.push(name);
-}
-
-getCourseList (){
-
-    return this.#courseList;
-}
-  login () {
-    return "You are logged in" ;
+     // working methods 
   }
 
+     enrollCourse(name){
+         this.#courseList.push(name);
+     }
+
+     // push course name enroll name 
+
+/// how many course you  enroll 
+
+getCourseList(){
+ return this.#courseList;
+}
+
+login() {
+return "You are logged in";
+
+}  // static don"t share information 
 }
 
 
-class SubAdmin extends User {
+module.exports = User;
 
-    constructor(name , email){
-     super (name , email);
-      }
-    getAdminInfo () {
-        return "I am subadmin";
-    }
-  login (){
-    return "login for admin only";
-  }
+// we exports  the files  
+// foucs  on   s  its exports 
+// CLASS BLUEPRINT 
+// class create  alone don't come with objects 
+// constructor  class create objects 
+
+// get - > grab the vaiable privately  return parameters
+// set --> set the value 
+class SubAdmin extends User{
+
+constructor(name ,email){
+
+  super(name , email)
 
 }
 
-module.exports =User ;
-
-const granth = new User( "granth" , "granth@granth.com");
-console.log(granth.getInfo());
 
 
-granth.enrollCourse("React Bootcamp");
 
-console.log(granth.getCourseList());
-console.log(granth.courseList);
+ getAdminInfo (){
+   return "I am subAdmin"
+ }  /// now create objects 
+
+ login (){
+   return "login for admin only" ;
+ }
+}
+
+// #inheritance the  classe use extends 
+
+const honey = new User ("honey" , "honey@honey.com");
+console.log(honey.getInfo());
+honey.enrollCourse ("React Bootcamp")
+console.log(honey.getCourseList());
+console.log(honey.courseList);// private props
 
 
-const tom  =new SubAdmin ("tom" ,"tom@jerry.com");
+
+const tom = new SubAdmin ();
 console.log(tom.getAdminInfo());
 console.log(tom.login());
 console.log(tom.getInfo());
